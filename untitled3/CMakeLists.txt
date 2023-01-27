@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.13)
+project(untitled3 C)
+include_directories(C:/mingw64/include)
+add_executable(untitled3 main.c webconnect.c webconnect.h)
+target_link_libraries(untitled3 curl ncursesw)
